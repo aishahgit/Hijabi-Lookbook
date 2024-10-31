@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijab Lookbook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav id="desktop-nav">
+        <div>
+            <img src="./image/logo.png" alt="Logo" class="logo" ></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" class="link">About</a></li>
+                <li><a href="#style-gallery" class="link">style gallery</a></li>
+                <li><a href="#style-tips" class="link">style tips</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div>
+            <img src="./image/logo.png" alt="Logo" class="logo" ></div>
+        <div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#style-gallery" onclick="toggleMenu()">style gallery</a></li>
+                <li><a href="#style-tips" onclick="toggleMenu()">style tips</a></li>
+            </div>
+        </div>
+       </nav>
+<!-- profile -->
+    <section class="section-container" id="profile">
+      
+        <div class="section-text">
+           <h1 class="subheading">Your hijab style inspiration</h1>
+            <h1 class="title1">A Hijabi Lookbook!!</h1>
+            <p class="section-text-p2">Explore hijab fashion that fits your style. Casual, formal, or festive—whatever the occasion, our lookbook is here to inspire your next outfit.</p>
+            <div class="btn-container">
+                <a  href="#style-gallery" class="btn btn-1">Explore the Lookbook</a>
+            </div>
+        </div>
+        <div class="section-pic-container">
+            <img src="./image/Home.png" alt="a home pic" class="profile-img">
+        </div>
+    </section>
+<!-- About  -->
+ <section id="about">
+    <div class="title-container">
+        <h1 class="title2">About</h1>
+    </div>
+    <div class="about-container">
+        <div class="about-column-1">
+            <img src="./image/About1.jpg" alt="about-image" class="about-image">
+        </div>
+        <div class="about-column-2">
+                <h2 class="subheading">Welcome to my Hijabi Lookbook!</h2>
+                <p class="about-text"> As a fellow hijabi, I understand the  challenges we face in expressing our love for fashion while staying true to our values of modesty. It’s essential for us to find outfits that not only respect our beliefs but also celebrate our individuality and style. <br> <br>
+
+                    In this lookbook, you'll discover a curated collection of outfits designed for various occasions—from casual outings to festive celebrations and professional settings. Each look is crafted with care, ensuring that our skin remains covered while allowing us to express our personal style. <br> <br>
+                    
+                    My goal with this lookbook is to provide inspiration and ideas for hijabis seeking to dress beautifully and appropriately for every event. I believe that fashion should empower us, and I hope this lookbook serves as a guide for you to create your unique looks.</p>
+        </div>
+    </div>
+ </section>
+
+    <section id="style-gallery"> 
+       
+        <h1 class="title3">Style Gallery</h1>
+    
+        <div class="style-gallery-container" >
+        <div class="style-column">
+            <div class="style-img-container">
+                <img src="./image/casual.jpg" alt="style image" class="style-image">
+            </div>
+            <h2 class="style-subheading">Casual</h2>
+            <p class="style-text">Effortless looks perfect for everyday comfort and style.</p>
+            <div class="btn-container2">
+                <button onclick="window.location.href='casual.html';" class="btn bt-2">Visit the Page</button>
+           
+            </div>
+        </div>
+        <div class="style-column">
+            <div class="style-img-container">
+                <img src="./image/formal.jpg" alt="style image" class="style-image">
+            </div>
+               
+            <h2 class="style-subheading">Formal</h2>
+            <p class="style-text"> Polished outfits tailored for professional settings and elegance.</p>
+            <div class="btn-container2">
+            <button onclick="window.location.href='formal.html';" class="btn bt-2">Visit the Page</button>
+            </div>
+        </div>
+      
+        <div class="style-column">
+                <div class="style-img-container">
+                    <img src="./image/Festive.jpg" alt="style image" class="style-image">
+                </div>
+                <h2 class="style-subheading">Festive</h2>
+                <p class="style-text">Vibrant, celebratory styles for special gatherings and events</p>
+                <div class="btn-container2">
+                    <button  onclick="window.location.href='festive.html';" class="btn bt-2">Visit the Page</button>
+                </div>
+            </div>
+
+            <div class="style-column">
+                <div class="style-img-container">
+                    <img src="./image/athleasure.jpg" alt="style image" class="style-image">
+                </div>
+                <h2 class="style-subheading">Athleisure</h2>
+                <p class="style-text">Blending comfort and style for active, on-the-go days.</p>
+               <div class="btn-container2">
+                <button  onclick="window.location.href='athleisure.html';" class="btn bt-2">Visit the Page</button>
+            </div>
+            </div>
+
+        </div>
+    </section>
+<!-- style tips -->
+
+    <section id="style-tips">
+        <h1 class="title4">
+            Style Tips
+        </h1>
+      
+        <h2 class="subheading1">Wrapped style</h2>
+        <div class="style-tips">
+            <div class="tips-img-container">
+                <img src="./image/wrapped style.jpg" alt="hijab image" class="tips-image">
+            </div>
+            <div class="style-text-container">
+            <h3 class="guide"> Step by step guide</h3>
+            <p class="tips-text">1.Wear an undercap to keep the hijab secure and prevent it from slipping.
+            </p>
+            <p class="tips-text">2.Place the hijab on your head with both ends equal in length. Adjust to ensure it frames your face neatly.</p>
+            <p class="tips-text">3.Bring the two sides together under your chin and secure them with a small pin or tuck them comfortably.</p>
+            <p class="tips-text">4.Take one side of the hijab and wrap it across the opposite shoulder, bringing it back around over your head and around the side of your face.</p>
+            <p class="tips-text">5.Use a pin to secure the hijab on one side, just above or near your ear. Make sure it’s snug, but not too tight.</p>
+            <p class="tips-text">6.Adjust the front for a smooth, even drape around your face. Let the remaining fabric fall naturally over your shoulder for a soft, graceful look.</p>
+            <!-- <div class="btn-container">
+                <a  href="https://www.youtube.com/shorts/LcmyNoJXzJE" class="btn btn-3">Visit the link for tutorial</a>
+            </div> -->
+            <a href="https://www.youtube.com/shorts/LcmyNoJXzJE">Tutorial</a>
+            </div>
+        </div>
+
+        <h2 class="subheading2">One-Shoulder Drape</h2>
+        <div class="style-tips">
+            <div class="tips-img-container">
+                <img src="./image/one shoulder drape.jpg" alt="hijab image" class="tips-image1">
+            </div>
+            <div class="style-text-container">
+            <h3 class="guide"> Step by step guide</h3>
+            <p class="tips-text">1.Start by placing a hijab cap on your head to keep your hair in place and provide a secure base.
+            </p>
+            <p class="tips-text">2.Lay your hijab on your head with both sides of the scarf equal in length.</p>
+            <p class="tips-text">3. Pin the two sides together under your chin for a snug and comfortable hold.</p>
+            <p class="tips-text">4.Take one side of the hijab and gently place it over your shoulder, allowing the fabric to drape naturally. </p>
+            <!-- <div class="btn-container">
+                <a  href="https://www.youtube.com/shorts/7Emq4cd9Nko" class="btn btn-3">Visit the link for tutorial</a> 
+            </div> -->
+          <a href="https://www.youtube.com/shorts/7Emq4cd9Nko">Tutorial</a>
+            </div>
+        </div>
+
+        <h2 class="subheading1">Turkish Style</h2>
+        <div class="style-tips">
+            <div class="tips-img-container">
+                <img src="./image/turkish style.jpg" alt="hijab image" class="tips-image2">
+            </div>
+            <div class="style-text-container">
+            <h3 class="guide"> Step by step guide</h3>
+            <p class="tips-text">1.Put on a snug undercap to keep your hair in place and provide a good base for the hijab.
+            </p>
+            <p class="tips-text">2.Take a square hijab and fold it diagonally into a triangle.</p>
+            <p class="tips-text">3.Place the folded hijab over your head, making sure both sides are the same length in front.</p>
+            <p class="tips-text">4.Secure the hijab under your chin with a small pin or safety pin.</p>
+            <p class="tips-text">5.Take the two sides of the hijab, pull them to the back, and tie them comfortably at the nape of your neck.</p>
+            <!-- <div class="btn-container">
+                <a  href="https://www.youtube.com/shorts/LcmyNoJXzJE" class="btn btn-3">Visit the link for tutorial</a>
+            </div> -->
+            <a href="https://www.youtube.com/shorts/cGTIsIcnBmw">Tutorial</a> 
+           </div>
+        </div>
+  
+    </section>
+
+    <footer>
+        <nav id="footer-nav">
+           <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about" class="link">About</a></li>
+                    <li><a href="#style-gallery" class="link">style gallery</a></li>
+                    <li><a href="#style-tips" class="link">style tips</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Aishah Shaikh. All Rights Reserved</p>
+      </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
