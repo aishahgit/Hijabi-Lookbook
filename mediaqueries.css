@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    /* profile section */
+    #profile, .section-container{
+        display: inline-block;
+        height: 92vh;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .section-text{
+        padding-top: 2rem;
+    }
+    .section-text-p2{
+        font-size: 14px;
+      
+    }
+    .btn.btn-1{
+        padding: 10px;
+    }
+    .profile-img{
+        max-height: 246px;
+       
+    }
+    .title1{
+        font-size: 2rem;
+     }
+    /* about section  */
+    .about-container {
+      flex-direction: column;
+      margin: 0 1rem;
+      padding: 0;
+    }
+
+    .title2 {
+        font-size: 3rem; 
+    }
+
+    .subheading {
+        font-size: 1.2rem; 
+      
+    }
+
+    .about-text {
+        font-size: 14px;
+        padding: 0 0px; 
+       
+    }
+
+    .about-column-1 {
+        margin-bottom: 20px; 
+    }
+
+    .about-column-1 img {
+        width: 100%; 
+    }
+    /* style gallery */
+    .style-gallery-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+  
+     /* style tips */
+    #style-tips {
+        margin: 3rem 1rem 0; 
+    }
+   
+    .title4 {
+        font-size: 3rem; 
+        margin-bottom: 2rem;
+    }
+
+    .style-tips {
+        flex-direction: column;
+        width: 70vw;
+        height: auto;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 2rem;
+       
+    }
+
+    .tips-image, .tips-image1, .tips-image2 {
+        width: 100%; 
+        height: 35vh;
+        max-width: 360px; 
+   
+    }
+
+    .subheading1, .subheading2 {
+         padding-left: 2rem; 
+        font-size: 1.2rem; 
+    }
+
+    .guide {
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    .tips-text {
+        font-size: 11px;
+      
+    }
+    /* footer */
+    footer{
+        height: 40vh;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+       } 
+       footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .nav-links li a{
+        font-size: 1rem;
+   }
+}
