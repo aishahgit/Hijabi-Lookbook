@@ -8,7 +8,7 @@
     /* profile section */
     #profile, .section-container{
         display: inline-block;
-        height: 91.5vh;
+        height: 92vh;
         width: 100%;
         margin-bottom: 0;
     }
@@ -23,7 +23,7 @@
         padding: 10px;
     }
     .profile-img{
-        max-height: 246px;
+        max-height: 250px;
        
     }
     .title1{
