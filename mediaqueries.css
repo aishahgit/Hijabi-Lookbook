@@ -8,12 +8,12 @@
     /* profile section */
     #profile, .section-container{
         display: inline-block;
-        height: 80vh;
+        height: 92vh;
         width: 100%;
         margin-bottom: 0;
     }
     .section-text{
-        padding-top: 2rem;
+        padding-top: 7rem;
     }
     .section-text-p2{
         font-size: 14px;
@@ -23,7 +23,7 @@
         padding: 10px;
     }
     .profile-img{
-        max-height: 167px;
+        display: none;
        
     }
     .title1{
